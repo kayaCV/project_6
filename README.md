@@ -1,2 +1,3 @@
-# project_6
- Static Node.js and Express Site
+# FSJS Project 6 - Static Node.js and Express Site
+
+## Description:
