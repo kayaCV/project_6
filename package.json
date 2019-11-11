@@ -1,11 +1,27 @@
 {
   "name": "project_6",
   "version": "1.0.0",
-  "description": "## Description:",
-  "main": "index.js",
+  "description": "\"\"",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayaCV/project_6.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayaCV/project_6/issues"
+  },
+  "homepage": "https://github.com/kayaCV/project_6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
