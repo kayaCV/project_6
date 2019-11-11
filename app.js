@@ -3,6 +3,8 @@ const data = require("./data.json");
 
 const app = express();
 
+const errHandlers = require('./errHandlers');
+
 
 /**
  * Set up your middleware:
@@ -24,20 +26,23 @@ Dynamic "project" routes (/project or /projects) based on the id of the project
 that render a customized version of the Pug project template to show off each project. 
 Which means adding data, or "locals", as an object that contains data to be passed to the Pug template.
   */
- const mainRoutes = require('./routes');
- app.use(mainRoutes);
+const mainRoutes = require('./routes');
+app.use(mainRoutes);
 
 
- app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
+// // Handle errors
+app.use( errHandlers.routesNotFound );
 
-
+app.use( errHandlers.globalError );
 
   /**
-   * Finally, start your server. Your app should listen on port 3000, and log a string 
+   * Start your server on port 3000, and log a string 
    * to the console that says which port the app is listening to.
    */
 
-  app.listen(4000, () => {     // create server
+app.listen(4000, () => {     // create server
     console.log("App running on port 4000");
 });
+
