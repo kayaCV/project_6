@@ -5,45 +5,45 @@
             "project_name": "A Random Quote Generator",
             "description": ["This app that displays random quotes each time the button is clicked. The background color changes as the quotes change, and the quotes change every few seconds if the button is not pressed."],
             "technologies": ["JavaScript"],
-            "live_link": "https://kayacv.github.io/project_one/",
-            "github_link": "https://github.com/kayaCV/project_one",
-            "image_urls": ["../images/projectOneMain.png", "../images/projectOne1.png", "../images/projectOne2.png", "../images/projectOne3.png"]
+            "live_link": "project_one/",
+            "github_link": "project_one",
+            "image_urls": ["projectOneMain", "projectOne1", "projectOne2", "projectOne3"]
         },
         {
             "id": 1,
             "project_name": "List Pagination and Filtering",
             "description": ["Adds pagination links to the webpage allowing users to only see 10 students at a time. Provided HTML and CSS files were not modified. Used unobtrusive and plain JavaScript. Created, appended, manipulated and removed HTML elements using JavaScript."],
             "technologies": ["JavaScript"],
-            "live_link": "https://kayacv.github.io/project_two/",
-            "github_link": "https://github.com/kayaCV/project_two",
-            "image_urls": ["../images/projectTwoMain.png", "../images/projectTwo1", "../images/projectTwo2.png", "../images/projectTwo3.png"]
+            "live_link": "project_two/",
+            "github_link": "project_two",
+            "image_urls": ["projectTwoMain", "projectTwo1", "projectTwo2", "projectTwo3"]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
             "description": ["Used jQuery library to enhance the registration form for a fictional conference called 'FullStack Conf.' Make the form more user-friendly by:", "adding customized and conditional behavior and interactivity", "validating user input and providing error messages when the user enters invalid information into the form fields."],
-            "technologies": ["JavaScript"],
-            "live_link": "https://kayacv.github.io/project_three/",
-            "github_link": "https://github.com/kayaCV/project_three",
-            "image_urls": ["../images/projectThreeMain", "../images/projectThree1.png", "../images/projectThree2.png", "../images/projectThree3.png"]
+            "technologies": ["JavaScript", "JQuery"],
+            "live_link": "project_three/",
+            "github_link": "project_three",
+            "image_urls": ["projectThreeMain", "projectThree1", "projectThree2", "projectThree3"]
         },
         {
             "id": 3,
             "project_name": "OOP Game Show App",
             "description": ["Phrase Hunter:", "A browser-based word guessing game created using JavaScript and Object-Oriented Programming. When player guesses a letter correctely, the letters are displayed on the screen. If the letter is not in the phrase, player loses a life. Each letter can only be chosen once. This continues until all letters are guessed correctly and player wins the game or all lives are lost (five total) and player loses the game."],
             "technologies": ["JavaScript"],
-            "live_link": "https://kayacv.github.io/project_4/",
-            "github_link": "https://github.com/kayaCV/project_4",
-            "image_urls": ["../images/projectFourMain.png", "../images/projectFour1.png", "../images/projectFour2.png", "../images/projectFour3.png"]
+            "live_link": "project_4/",
+            "github_link": "project_4",
+            "image_urls": ["projectFourMain", "projectFour1", "projectFour2", "projectFour3"]
         },
         {
             "id": 4,
             "project_name": "Public API Requests",
             "description": ["Using the Random User Generator API (https://randomuser.me/), the code requests specific information from API: It gets information for 12 random people including name, pictures and address (amongst others), to be displayed on the page.(lines 7 to 14) When an employee card is clicked, a pop up window opens up displaying more details about the employee (like phone number and date of birth). (lines 120 to 128) Employee cards and pop up windows were created and appended dynamically, using examples provided in the html file and the mockups. (lines 27 to 39 and 81 to 99)"],
             "technologies": ["JavaScript"],
-            "live_link": "https://kayacv.github.io/project_5/",
-            "github_link": "https://github.com/kayaCV/project_5",
-            "image_urls": ["../images/projectFiveMain.png", "../images/projectFive1.png", "../images/projectFive2.png", "../images/projectFive3.png"]
+            "live_link": "project_5/",
+            "github_link": "project_5",
+            "image_urls": ["projectFiveMain", "projectFive1", "projectFive2", "projectFive3"]
         }
     ]
 }

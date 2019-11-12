@@ -42,7 +42,7 @@ app.use( errHandlers.globalError );
    * to the console that says which port the app is listening to.
    */
 
-app.listen(4000, () => {     // create server
-    console.log("App running on port 4000");
+app.listen(3000, () => {     // create server
+    console.log("App running on port 3000");
 });
 
