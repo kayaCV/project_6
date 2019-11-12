@@ -148,3 +148,37 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/* My Changes */
+
+/* Change background color */
+body {
+  background-color: #77ff94;
+}
+
+/* Change 'my info' background color and add text shadow*/
+#my-info {
+  background-color: #113537;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* circled profile image */
+.shrink > img {
+  /* border-radius: 50%; */
+  border-radius: 8px; /* rounded image*/
+}
+
+/* flip profile picture on hover */
+.shrink > img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* Center "page not found" picture */
+#linkNotFound {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
