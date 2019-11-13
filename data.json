@@ -4,7 +4,7 @@
             "id": 0,
             "project_name": "A Random Quote Generator",
             "description": ["This app displays random quotes each time the button is clicked. The background color changes as the quotes change, and the quotes change every few seconds if the button is not clicked."],
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "HTML"],
             "live_link": "project_one/",
             "github_link": "project_one",
             "image_urls": ["projectOneMain", "projectOne1", "projectOne2", "projectOne3"]
@@ -12,8 +12,8 @@
         {
             "id": 1,
             "project_name": "List Pagination and Filtering",
-            "description": ["Adds pagination links to a webpage, allowing users to only see 10 students at a time. Used unobtrusive and plain JavaScript. Created, appended, manipulated and removed HTML elements using JavaScript."],
-            "technologies": ["JavaScript"],
+            "description": ["Adds a search feature and pagination links to a webpage, allowing users to only see 10 students at a time."],
+            "technologies": ["JavaScript", "HTML"],
             "live_link": "project_two/",
             "github_link": "project_two",
             "image_urls": ["projectTwoMain", "projectTwo1", "projectTwo2", "projectTwo3"]
@@ -21,8 +21,8 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": ["Used jQuery library to enhance the registration form for a fictional conference called 'FullStack Conf.' Made the form more user-friendly by: adding customized and conditional behavior and interactivity; validating user input and providing error messages when the user enters invalid information into the form fields."],
-            "technologies": ["JavaScript", "JQuery"],
+            "description": ["Used jQuery library to enhance the registration form for a fictional conference. Added customized and conditional behavior and interactivity and provided error messages when the user enters invalid information into the form fields."],
+            "technologies": ["JavaScript", "JQuery", "CSS", "HTML"],
             "live_link": "project_three/",
             "github_link": "project_three",
             "image_urls": ["projectThreeMain", "projectThree1", "projectThree2", "projectThree3"]
@@ -30,8 +30,8 @@
         {
             "id": 3,
             "project_name": "OOP Game Show App",
-            "description": ["Phrase Hunter: A browser-based word guessing game created using JavaScript and Object-Oriented Programming. When a player guesses a letter correctly, the letters are displayed on the screen. If the letter is not in the phrase, player loses a life. Each letter can only be chosen once. This continues until all letters are guessed correctly and player wins the game or all lives are lost (five total) and player loses the game."],
-            "technologies": ["JavaScript", "Object-Oriented Programming"],
+            "description": ["A browser-based word guessing game created using JavaScript and Object-Oriented Programming."],
+            "technologies": ["JavaScript", "Object-Oriented Programming", "CSS", "JSON"],
             "live_link": "project_4/",
             "github_link": "project_4",
             "image_urls": ["projectFourMain", "projectFour1", "projectFour2", "projectFour3"]
@@ -39,8 +39,8 @@
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": ["Using the Random User Generator API (https://randomuser.me/), the code requests specific information from API: It gets information for 12 random people including name, pictures and address (amongst others), to be displayed on the page. When an employee card is clicked, a pop up window opens up displaying more details about the employee (like phone number and date of birth). Employee cards and pop up windows were created and appended dynamically, using examples provided in the html file and the mockups."],
-            "technologies": ["JavaScript", "JQuery", "Fetch API"],
+            "description": ["Using the Random User Generator API (https://randomuser.me/), the code requests information from the API such as name, pictures and address and diplays them on the page. When an employee card is clicked, a pop up window opens up displaying more details about the employee."],
+            "technologies": ["JavaScript", "JQuery", "Fetch API", "CSS"],
             "live_link": "project_5/",
             "github_link": "project_5",
             "image_urls": ["projectFiveMain", "projectFive1", "projectFive2", "projectFive3"]
