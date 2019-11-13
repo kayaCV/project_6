@@ -2,7 +2,7 @@ const routesNotFound = (req, res, next) => {
     console.log('Handling 404 error');   // Log statement to indicate that this function is running 
     const err = new Error('err');
     err.status = 404;
-    err.message = 'OOPS! Looks like this page doesn\'t exist.';
+    err.message = 'Uh oh! Looks like this page doesn\'t exist.';
     next(err);
 }
 

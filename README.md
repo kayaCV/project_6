@@ -3,7 +3,7 @@
 ## Description
 This project creates a portfolio site that showcases projects I have built in the Treehouse Apprenticeship Program. It includes a main page, an about page, projects page and an error page.
 
-To complete the project I used JSON, Express and Pug, Node.js, CSS, and the project files provided by Treehouse. I also followed the Mockups and the html examples alo provided by Treehouse.
+To complete the project I used JSON, Express and Pug, Node.js, CSS, and the project files provided by Treehouse. I also followed the Mockups and the html examples also provided by Treehouse.
 
 ## Extra Credit Features
 • Start the app by running npm start
