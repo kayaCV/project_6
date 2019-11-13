@@ -7,7 +7,7 @@ To complete the project I used JSON, Express and Pug, Node.js, CSS, and the proj
 
 ## Extra Credit Features
 • Start the app by running npm start
-• Created error.pug which diplays error.message, error.status, error.stack, when an non-exixting URL is requested
+• Created error.pug which displays error.message, error.status, error.stack, when an non-existing URL is requested
 • Made the following changes to the style.css file:
     • changed background color of body
     • changed background color of #my-info
